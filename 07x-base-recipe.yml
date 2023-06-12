@@ -7,8 +7,14 @@ recipe:
     composite-builds:
         viziosdk:
             components: [vizio_sdk]
+        platform:
+            components: [platform]
     components:
         vizio_sdk:
             repo: BuddyTV/vizio_sdk
             branch: master
+        platform:
+            repo: BuddyTV/platform
+            branch: master
+            
 ...
