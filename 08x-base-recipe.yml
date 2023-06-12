@@ -1,0 +1,17 @@
+---
+recipe:
+    supported-targets: [5581, 5597]
+    feature-flags:
+        loki-volume
+        vizio-os-menu-colors
+    composite-builds:
+        toolkit:
+            components: [loki, platform-manifest]
+    components:
+        loki:
+            repo: BuddyTV/loki
+            branch: master
+        platform-manifest:
+            repo: BuddyTV/platform-manifest
+            branch: master
+...
