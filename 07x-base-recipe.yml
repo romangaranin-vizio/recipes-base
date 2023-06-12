@@ -5,16 +5,11 @@ recipe:
         loki-volume
         vizio-os-menu-colors
     composite-builds:
-        viziosdk:
-            components: [vizio_sdk]
-        platform:
-            components: [platform]
+        dai:
+            components: [dai]
     components:
-        vizio_sdk:
-            repo: BuddyTV/vizio_sdk
-            branch: master
-        platform:
-            repo: BuddyTV/platform
+        dai:
+            repo: BuddyTV/dai
             branch: master
             
 ...
