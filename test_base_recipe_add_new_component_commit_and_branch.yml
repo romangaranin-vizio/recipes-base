@@ -1,0 +1,15 @@
+---
+recipe:
+    supported-targets: [5581, 5597]
+    feature-flags:
+        loki-volume
+        vizio-os-menu-colors
+    composite-builds:
+        logger:
+            components: [s3logger]
+    components:
+        s3logger:
+            repo: BuddyTV/s3logger
+            branch: release-FUR6.0
+            commit: '124618220e1835c0e7a367d9cefa8e7ea724f7c2'
+...
