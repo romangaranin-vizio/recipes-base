@@ -1,0 +1,15 @@
+---
+recipe:
+    supported-targets: [5581, 5597]
+    feature-flags:
+        loki-volume
+        vizio-os-menu-colors
+    composite-builds:
+        logger:
+            components: [platform-manifest]
+    components:
+        platform-manifest:
+            repo: BuddyTV/platform-manifest
+            tag: ViziOS-mtk5695-1.3.338.395.0-f133f2f-632d497
+            branch: FUR-3.1
+...
