@@ -1,0 +1,14 @@
+---
+recipe:
+    supported-targets: [5581, 5597]
+    feature-flags:
+        loki-volume
+        vizio-os-menu-colors
+    composite-builds:
+        logger:
+            components: [VsspExt]
+    components:
+        s3logger:
+            repo: BuddyTV/VsspExt
+            tag: Vizio_linux_t-apollo-mp-1901-1937-2-001-10-001-1631-001-9
+...
